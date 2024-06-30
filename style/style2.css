@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(31, 160, 219);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    color: rgb(31, 160, 219);
+    margin-top: -10px;
+    padding-inline: 25px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+}
+
+.tela {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 50%;
+    padding: 35px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 50px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+}
+
+input {
+    padding: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.botao-enter {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botao-enter:hover {
+    background-color: rgb(31, 185, 219);
+}
+
+.date {
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.genero {
+    color: aqua;
+}
+
+.genero_section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dois {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dois section {
+    display: flex;
+    flex-direction: column;
+}
